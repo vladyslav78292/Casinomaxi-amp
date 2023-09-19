@@ -78,7 +78,7 @@
         padding:  20px 0;
         margin: 0 auto;
         word-wrap: break-word;
-
+        z-index: 10000;
       }
 
       span {
@@ -111,6 +111,7 @@
       main {
         padding: 90px 100px;
         margin: 0 auto;
+        padding-top: 185px;
       }
 
       p, ul, ol, li {
@@ -286,6 +287,8 @@
 
       header > div:first-of-type {
         background-color: #086460;
+        position: fixed;
+        width: 100%;
       }
 
       .buttons {
@@ -488,6 +491,7 @@
       @media (max-width: 1200px) {
         main {
           padding: 40px 50px;
+          padding-top: 135px;
         }
       }
 
@@ -536,8 +540,13 @@
           width: 100%;
         }
 
+        ul, ol {
+          padding-left: 10px;
+        }
+
         main {
           padding: 30px 20px;
+          padding-top: 184px;
         }
 
         .image_container {
